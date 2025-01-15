@@ -8,7 +8,7 @@ result in exactly n H characters in the file.
 
 def minOperations(n):
     """
-    Calculate the minimum number of operations 
+    Calculate the minimum number of operations
     needed to achieve n H characters.
 
     Parameters:
