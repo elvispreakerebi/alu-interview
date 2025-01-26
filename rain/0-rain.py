@@ -22,10 +22,10 @@ def rain(walls):
     for i in range(1, n - 1):
         # Find maximum element on its left
         left_max = max(walls[:i])
-        
+
         # Find maximum element on its right
         right_max = max(walls[i + 1:])
-        
+
         # The amount of water that can be stored at current position
         min_height = min(left_max, right_max)
         if min_height > walls[i]:
